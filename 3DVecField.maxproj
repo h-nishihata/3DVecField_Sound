@@ -2,7 +2,7 @@
 	"name" : "3DVecField",
 	"version" : 1,
 	"creationdate" : -694447662,
-	"modificationdate" : -694444118,
+	"modificationdate" : -694423819,
 	"viewrect" : [ 25.0, 69.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,10 +10,9 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"PianoTest.maxpat" : 			{
+			"main.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
+				"local" : 1
 			}
 ,
 			"oscReceiver.maxpat" : 			{
