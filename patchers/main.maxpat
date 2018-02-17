@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1372.0, 788.0 ],
+		"rect" : [ 34.0, 78.0, 1113.0, 788.0 ],
 		"bgcolor" : [ 0.886275, 0.886275, 0.886275, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-130",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 844.866943, 136.933334, 69.0, 20.0 ],
+					"style" : "",
+					"text" : "r risingSound"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Lato",
 					"fontsize" : 11.595187,
 					"id" : "obj-37",
@@ -51,7 +64,7 @@
 					"presentation_linecount" : 8,
 					"presentation_rect" : [ 349.0, 260.0, 65.0, 118.0 ],
 					"style" : "",
-					"text" : "Divide a note according to the zone to which the pixel value belongs."
+					"text" : "Divide a note according to the zone to which the pixel value belongs"
 				}
 
 			}
@@ -66,9 +79,9 @@
 					"patching_rect" : [ 1079.85022, 162.666718, 232.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 334.0, 245.0, 65.0, 76.0 ],
+					"presentation_rect" : [ 334.0, 245.0, 67.0, 76.0 ],
 					"style" : "",
-					"text" : "Devide the pixel value (0-255) into 3 zones."
+					"text" : "Divide the pixel value (0-255) into 3 zones"
 				}
 
 			}
@@ -897,7 +910,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 985.717041, 211.333344, 29.5, 20.0 ],
 					"style" : "",
-					"text" : "3"
+					"text" : "4"
 				}
 
 			}
@@ -936,7 +949,7 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 985.717041, 301.933319, 29.5, 20.0 ],
 					"style" : "",
-					"text" : "* 2"
+					"text" : "* 4"
 				}
 
 			}
@@ -3123,6 +3136,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-130", 0 ]
 				}
 
 			}
