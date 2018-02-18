@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 499.0, 379.0, 907.0, 487.0 ],
+		"rect" : [ 239.0, 144.0, 753.0, 596.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,16 +41,16 @@
 					"fontname" : "Lato",
 					"fontsize" : 11.595187,
 					"id" : "obj-149",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 481.666687, 42.0, 175.333328, 48.0 ],
+					"patching_rect" : [ 481.666687, 42.0, 197.333328, 34.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 7,
-					"presentation_rect" : [ 364.0, 275.0, 70.0, 104.0 ],
+					"presentation_linecount" : 6,
+					"presentation_rect" : [ 364.0, 275.0, 73.0, 90.0 ],
 					"style" : "",
-					"text" : "Add a little twist to the sound when all 3 numbers are odd numbers"
+					"text" : "Add a rising sound\nwhen all 3 numbers are odd numbers"
 				}
 
 			}
